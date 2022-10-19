@@ -36,15 +36,6 @@ junit
 Revisar la clase NewHitsRepositoryTest
 
 ```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
 ## Despliegue 📦
 
 Por el momento este es un DEMO el cual se seguirá mejorando, por lo tanto no existe una ambiente de despliegue, pero se trabajó  el proyecto para que se tenga los ambientes  de  producción, QAS y dev.
