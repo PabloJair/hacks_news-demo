@@ -50,17 +50,16 @@ Por el momento este es un DEMO el cual se seguirá mejorando, por lo tanto no ex
 
 _Menciona las herramientas que utilizaste para crear tu proyecto_
 
-* [Material Designer for android](https://github.com/material-components/material-components-android/releases) - El framework para UI
-* [CORE](https://developer.android.com/jetpack/androidx/releases/core) - Dependencia para Android 
-* [Constraintlayout ](https://developer.android.com/jetpack/androidx/releases/constraintlayout) - Constraint layout  para el diseño
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+* [Material Designer for android](https://github.com/material-components/material-components-android/releases) - El framework para UI.
+* [CORE](https://developer.android.com/jetpack/androidx/releases/core) - Dependencia para Android.
+* [Constraintlayout ](https://developer.android.com/jetpack/androidx/releases/constraintlayout) - Constraint layout  para el diseño.
+* [Android X ](https://developer.android.com/jetpack/androidx) -Dependencia para Android.
+* [Retrofit](https://square.github.io/retrofit/)- Para el cosumo de datos.
+* [GSON](https://github.com/google/gson)- Traformacion de datos.
+* [Coroutines](https://developer.android.com/kotlin/coroutines)- Para  ejecutar codigo de forma asíncrona
+* [ROOM](https://developer.android.com/jetpack/androidx/releases/room)- Persistencia de datos
+* [Lottie](https://lottiefiles.com/)- Animaciones 
+* [Hilt](https://developer.android.com/training/dependency-injection/hilt-android)- Inyección de dependencias
 
 
 ## Autores ✒️
