@@ -29,10 +29,12 @@ _Explica como ejecutar las pruebas automatizadas para este sistema_
 
 ### Analice las pruebas end-to-end 🔩
 
-_Explica que verifican estas pruebas y por qué_
-
+Se hicieron pruebas unitarias con :
+mockk
+junit
 ```
-Da un ejemplo
+Revisar la clase NewHitsRepositoryTest
+
 ```
 
 ### Y las pruebas de estilo de codificación ⌨️
