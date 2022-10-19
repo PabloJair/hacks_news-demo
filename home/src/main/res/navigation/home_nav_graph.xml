@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/newHitsFragment"
+    android:id="@+id/home_nav_graph">
+
+
+    <fragment
+        android:id="@+id/newHitsFragment"
+        android:name="com.pabloangeles.hackernewsapp.home.ui.fragments.NewHitsFragment"
+        android:label="@string/new_hits"
+        tools:layout="@layout/news_hits_item">
+        <action
+            android:id="@+id/goWebViewFragment"
+            app:destination="@id/webviewFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/webviewFragment"
+        android:name="com.pabloangeles.hackernewsapp.home.ui.fragments.WebViewFragment"
+        android:label="@string/web_view_new_hits"
+        tools:layout="@layout/fragment_webview">
+
+        <argument
+            android:name="url"
+            app:argType="string"
+            android:defaultValue="" />
+    </fragment>
+</navigation>

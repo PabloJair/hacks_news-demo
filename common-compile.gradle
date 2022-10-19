@@ -1,0 +1,49 @@
+android {
+    compileSdkVersion 33
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0.0"
+        vectorDrawables.useSupportLibrary = true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            buildConfigField 'String', 'URL_BASE_API', '"https://hn.algolia.com/api/v1/"'
+        }
+        qas {
+            buildConfigField 'String', 'RETROFIT_LEVEL', '"NONE"'
+            buildConfigField 'String', 'URL_BASE_API', '"https://hn.algolia.com/api/v1/"'
+        }
+        debug {
+
+            buildConfigField 'String', 'RETROFIT_LEVEL', '"NONE"'
+            buildConfigField 'String', 'URL_BASE_API', '"https://hn.algolia.com/api/v1//"'
+        }
+    }
+
+    compileOptions {
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+
+    dependencies {
+        coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+        implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    }
+}
+kapt {
+    correctErrorTypes true
+}

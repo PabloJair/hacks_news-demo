@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pabloangeles.hackernewsapp.home">
+
+    <application>
+        <activity
+            android:name=".ui.activities.HomeActivity"
+            android:screenOrientation="portrait"
+
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.pabloangeles.hackernewsapp.home" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

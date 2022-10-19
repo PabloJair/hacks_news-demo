@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="new_hits">News Hits</string>
+    <string name="web_view_new_hits">View New Hits</string>
+    <string name="hello">Hola</string>
+    <string name="would_like_deleted">¿Deseas eliminar esta noticia?</string>
+    <string name="yes">Si</string>
+    <string name="No">No</string>
+    <string name="title_error">Ups Tenemos un error!!</string>
+    <string name="error_news_hits">Al parecer tenemos un error al cargar esta noticia</string>
+    <string name="close">Cerrar</string>
+</resources>
